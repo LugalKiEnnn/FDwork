@@ -2,17 +2,8 @@
 #include <TString.h>
 #include <TClonesArray.h>
 #include <TH1.h>
-
-////////////////////////////////////////////////////////////////////////////////
-//                                                                            //
-// readEve.C                                                                  //
-//                                                                            //
-// An example how to read data (MC) from bmnsim.root                          //
-// It demonstrates how to select GEM hits which belong to the GEM track       //
-//                                                                            //
-////////////////////////////////////////////////////////////////////////////////
-
 #include <Rtypes.h>
+
 R__ADD_INCLUDE_PATH($VMCWORKDIR)
 //#include "macro/run/bmnloadlibs.C"
 #include "bmnloadlibs.C"
